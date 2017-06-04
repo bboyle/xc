@@ -1,0 +1,43 @@
+/*
+ * date:	2003-01-09
+ * info:	http://inspire.server101.com/js/xc/
+ */
+
+.open {
+	background: #FF0;
+}
+
+ul {
+	list-style: disc;
+	margin-left: 0;
+	padding-left: 1.5em;
+}
+
+li.xc {
+	list-style: none;
+}
+div.xcx, div.xcc {
+	position: relative;
+	display: inline;
+}
+li.xc>div.xcx, li.xc>div.xcc {
+	position: static;
+	margin-left: -1.5em;
+	float: left;
+	width: 1.5em;
+}
+div.xcx a, div.xcc a {
+	position: absolute;
+	left: -2em;
+}
+div.xcx>a, div.xcc>a {
+	position: static;
+}
+div.xcx a:link, div.xcx a:visited,
+div.xcc a:link, div.xcc a:visited {
+	color: #000;
+	text-decoration: none;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 75%;
+	font-weight: bold;
+}
